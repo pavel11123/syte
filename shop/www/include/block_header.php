@@ -5,13 +5,10 @@
 <div id="block_logotyp">
 Sport House</div>
 
-<!-- Создание кнопки Регистрация -->
-<div id="block_regist">
-Регистрация </div>
+<!-- Создание кнопки Вход  -->
+<p id="block_login"><a class="login">Вход</a><a href="registration.php">Регистрация</a></p>
 
-<!-- Создание кнопки Вход -->
-<ul id="block_login">
-Вход</ul>
+<!-- Создание кнопки регистрации -->
 
 <!-- Создание ссылок в меню-->
 <ul id="block_menu">
@@ -24,4 +21,5 @@ Sport House</div>
 <li><a href="Novinki.php">Новинки</a></li>
 <li><a href="Sale.php">Акции</a></li>
 </ul>
- </div>
+
+

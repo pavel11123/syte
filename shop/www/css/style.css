@@ -26,7 +26,10 @@
     margin-top: 10px;
     padding-left: 50px;
     padding-right: 10px;
+     background: url(/images/thumb.jpg);
 }
+
+
 
 <!-- Создание логотипа -->
 #block_logotyp
@@ -38,37 +41,27 @@
     margin-left: 500px;
 }
 
-<!-- Создание кнопки регистрация -->
-#block_regist
-{
-    width: 50px;
-    height: 25px;
-    border: 1px solid black;
-    margin-right:10px;
-        padding-right:40px; 
-        margin-top: -55px ;
-    float: right;
-}
 
 <!-- Создание кнопки Вход -->
-#block_login
+#block_login a.login
 {
-    width: 50px;
+    width: 25px;
     height: 25px;
     border: 1px solid black;
     margin-right:10px;
-        padding-right:40px; 
+        padding-right:25px; 
         margin-top: -55px ;
     float: right;
+    text-decoration: none;
 }
 
 <!-- Создание блока меню -->
-#block_menu
+#block_menu 
 {
     width: 1048px;
     height: 50px;
     border: 1px solid black;
-    margin-top: 87px;
+    margin-top: 52px;
 }
 
 <!-- Установка шрифта и место положения для навигации в меню -->
@@ -88,7 +81,16 @@
     text-decoration: none;
     }
     
-    <!-- Создание второй фотографии с товаром -->
+    
+     <!-- Установка цвета для блока меню -->
+ #block_menu a:hover
+    {
+    font: 20px sans-serif;
+    color: red;
+    text-decoration: none;
+    }
+    
+    <!-- Создание третьей фотографии с товаром -->
 #block_image1
 {
     width: 200px;
@@ -99,9 +101,10 @@
     margin-top: 10px;
     padding-left: 50px;
     padding-right: 10px;
+    background: url(/images/thumb.jpg);
 }
 
-<!-- Создание третьей фотографии с товаром -->
+<!-- Создание второй фотографии с товаром -->
 #block_image2
 {
     width: 200px;
@@ -111,6 +114,7 @@
     margin-top: 10px;
     padding-left: 50px;
     padding-right: 10px;
+     background: url(/images/thumb.jpg);
 }
 
 <!-- Создание четвертой фотографии с товаром -->
@@ -124,9 +128,10 @@
     margin-top: 10px;
     padding-left: 50px;
     padding-right: 10px;
+     background: url(/images/thumb.jpg);
 }
 
-<!-- Создание пятой фотографии с товаром -->
+<!-- Создание шестой фотографии с товаром -->
 #block_image4
 {
     width: 200px;
@@ -137,9 +142,10 @@
     margin-top: 10px;
     padding-left: 50px;
     padding-right: 10px;
+     background: url(/images/thumb.jpg);
 }
 
-<!-- Создание шестой фотографии с товаром -->
+<!-- Создание пятой фотографии с товаром -->
 #block_image5
 {
     width: 200px;
@@ -149,9 +155,10 @@
     margin-top: 10px;
     padding-left: 50px;
     padding-right: 10px;
+     background: url(/images/thumb.jpg);
 }
 
-<!-- Создание седьмой фотографии с товаром -->
+<!-- Создание восьмой фотографии с товаром -->
 #block_image7
 {
     width: 200px;
@@ -162,9 +169,10 @@
     margin-top: 10px;
     padding-left: 50px;
     padding-right: 10px;
+     background: url(/images/thumb.jpg);
 }
 
-<!-- Создание восьмой фотографии с товаром -->
+<!-- Создание десятой фотографии с товаром -->
 #block_image8
 {
     width: 200px;
@@ -175,6 +183,7 @@
     margin-top: 10px;
     padding-left: 50px;
     padding-right: 10px;
+     background: url(/images/thumb.jpg);
 }
 
 <!-- Создание девятой фотографии с товаром -->
@@ -187,9 +196,10 @@
     margin-top: 10px;
     padding-left: 50px;
     padding-right: 10px;
+     background: url(/images/thumb.jpg);
 }
 
-<!-- Создание десятой фотографии с товаром -->
+<!-- Создание седьмой фотографии с товаром -->
 #block_image6
 {
     width: 1000px;
@@ -199,6 +209,7 @@
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 2px;
+     background: url(/images/thumb.jpg);
 
 }
 
