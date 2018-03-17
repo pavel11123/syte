@@ -8,8 +8,7 @@
 </div>
 
 <!-- Создание логотипа -->
-<div id="block_logotyp">
-Sport House</div>
+<img id="logotip" src="/images/logo1.jpg"/>
 
 <!-- Создание ссылок в меню-->
 <ul id="block_menu">

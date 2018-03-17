@@ -63,13 +63,13 @@ cursor: pointer;
 }
 
 <!-- Создание логотипа -->
-#block_logotyp
+#logotip
 {
-    width: 100px;
-    height: 50px;
-    border: 1px solid black;
-    margin-top: 10px;
-    margin-left: 500px;
+    width: 200px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 400px;
+     position: absolute;
 }
 
 <!-- Создание блока меню -->
@@ -78,7 +78,7 @@ cursor: pointer;
     width: 1048px;
     height: 50px;
     border: 1px solid black;
-    margin-top: 46px;
+    margin-top: 110px;  
 }
 
 <!-- Установка шрифта и место положения для навигации в меню -->
@@ -118,7 +118,6 @@ cursor: pointer;
     margin-top: 10px;
     margin-left: 10px;
     position: absolute;
-    
      background: url(/images/thumb.jpg);
 }
 
