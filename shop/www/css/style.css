@@ -49,6 +49,21 @@ text-decoration: none;
 cursor: pointer;
 }
 
+<!-- Создание кнопки регистрация -->
+#block_login a
+{
+    font: 15px sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+<!-- Создание кнопки регистрация при наведении на нее-->
+#block_login a:hover
+{
+    color: red;
+    
+}
+
 <!-- Создание логотипа -->
 #block_logotyp
 {
