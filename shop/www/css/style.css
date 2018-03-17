@@ -106,6 +106,13 @@ cursor: pointer;
     color: red;
     text-decoration: none;
     }
+       <!-- Добавление кнопки поиск  -->
+    #block_search 
+    {
+        margin-top: 5px;
+        margin-left: 800px;
+        
+    }
 
 <!-- Создание первой фотографии с товаром -->
 #block_image

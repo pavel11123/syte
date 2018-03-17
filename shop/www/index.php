@@ -16,6 +16,16 @@
 <?php
 	include ("Z:/home/shop/www/include/block_header.php");
 ?>
+
+<!-- Создание поиска -->
+<div id="block_search">
+<form method = "GET" action = "search.php?q=">
+<input type="text" id="input_search" name="q" placeholder="Поиск среди товаров" /> <!-- Не отображается надпись -->
+<input type="submit" id="button_search" value="Поиск" />
+</form>
+
+</div>
+
 <!-- Создание блоков для фотографий -->
 <div> Новый блок </div>
 <div id="block_image"></div>

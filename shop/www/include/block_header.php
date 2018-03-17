@@ -21,5 +21,6 @@
 <li><a href="Novinki.php">Новинки</a></li>
 <li><a href="Sale.php">Акции</a></li>
 </ul>
+
 </div>
 
