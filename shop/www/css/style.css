@@ -19,15 +19,14 @@
 #block_top 
 {
         width: 1050px;
-    height: 50px;
-    border: 1px solid blueviolet;
+    height: 40px;
     margin: 0 auto;
 }
+
+<!-- Расположение кнопки вход и регистрация -->
 #block_login 
 {
     margin-right:10px;
-        padding-right:10px; 
-        padding-left: 2px;
         margin-top: 15px ;
             float: right;
 }
@@ -57,11 +56,10 @@ cursor: pointer;
     text-decoration: none;
 }
 
-<!-- Создание кнопки регистрация при наведении на нее-->
+<!-- Создание кнопки регистрация при наведении на нее -->
 #block_login a:hover
 {
     color: red;
-    
 }
 
 <!-- Создание логотипа -->
@@ -80,7 +78,7 @@ cursor: pointer;
     width: 1048px;
     height: 50px;
     border: 1px solid black;
-    margin-top: 36px;
+    margin-top: 46px;
 }
 
 <!-- Установка шрифта и место положения для навигации в меню -->
@@ -112,14 +110,15 @@ cursor: pointer;
 <!-- Создание первой фотографии с товаром -->
 #block_image
 {
-    width: 200px;
+    width: 250px;
     height: 400px;
     border: 1px solid black;
     margin: 0 auto;
     float: left;
     margin-top: 10px;
-    padding-left: 50px;
-    padding-right: 10px;
+    margin-left: 10px;
+    position: absolute;
+    
      background: url(/images/thumb.jpg);
 }
 
@@ -129,18 +128,34 @@ cursor: pointer;
     background: url(/images/1172850.jpg);
 }
 
+<!-- Создание второй фотографии с товаром -->
+#block_image2
+{
+    width: 250px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-left: 400px;
+    margin-top: 10px;
+     background: url(/images/1172850.jpg);
+
+}
+    <!-- Изменение второй фотографии при  наведении -->
+#block_image2:hover
+{
+    background: url(/images/1172850.jpg);
+}
     
     <!-- Создание третьей фотографии с товаром -->
 #block_image1
 {
-    width: 200px;
+    width: 250px;
     height: 400px;
     border: 1px solid black;
     margin: 0 auto;
     float: right;
+    margin-right: 10px;
     margin-top: 10px;
-    padding-left: 50px;
-    padding-right: 10px;
     background: url(/images/nike-air-huarache-run-se-852628-301-31.jpg);
 }
 
@@ -150,35 +165,17 @@ cursor: pointer;
     background: url(/images/1172850.jpg);
 }
 
-<!-- Создание второй фотографии с товаром -->
-#block_image2
-{
-    width: 200px;
-    height: 400px;
-    border: 1px solid black;
-    margin: 0 auto;
-    margin-top: 10px;
-    padding-left: 50px;
-    padding-right: 10px;
-     background: url(/images/1172850.jpg);
-}
-    <!-- Изменение второй фотографии при  наведении -->
-#block_image2:hover
-{
-    background: url(/images/1172850.jpg);
-}
-
 <!-- Создание четвертой фотографии с товаром -->
 #block_image3
 {
-    width: 200px;
+    width: 250px;
     height: 400px;
     border: 1px solid black;
     margin: 0 auto;
     float: left;
+    margin-left: 10px;
     margin-top: 10px;
-    padding-left: 50px;
-    padding-right: 10px;
+    position: absolute;
      background: url(/images/nike-air-huarache-run-ultra-br-olive-green-1.jpg);
 }
 
@@ -188,36 +185,15 @@ cursor: pointer;
     background: url(/images/1172850.jpg);
 }
 
-<!-- Создание шестой фотографии с товаром -->
-#block_image4
-{
-    width: 200px;
-    height: 400px;
-    border: 1px solid black;
-    margin: 0 auto;
-    float: right;
-    margin-top: 10px;
-    padding-left: 50px;
-    padding-right: 10px;
-     background: url(/images/nike-air-zoom-300x300.jpg);
-}
-
-    <!-- Изменение шестой фотографии при  наведении -->
-#block_image4:hover
-{
-    background: url(/images/1172850.jpg);
-}
-
 <!-- Создание пятой фотографии с товаром -->
 #block_image5
 {
-    width: 200px;
+    width: 250px;
     height: 400px;
     border: 1px solid black;
     margin: 0 auto;
     margin-top: 10px;
-    padding-left: 50px;
-    padding-right: 10px;
+    margin-left: 400px;
      background: url(/images/youth-2017-18-josh-jackson-suns-20-icon-purple-swingman-jersey.jpg);
 }
 
@@ -227,61 +203,21 @@ cursor: pointer;
     background: url(/images/1172850.jpg);
 }
 
-<!-- Создание восьмой фотографии с товаром -->
-#block_image7
+<!-- Создание шестой фотографии с товаром -->
+#block_image4
 {
-    width: 200px;
-    height: 400px;
-    border: 1px solid black;
-    margin: 0 auto;
-    float: left;
-    margin-top: 10px;
-    padding-left: 50px;
-    padding-right: 10px;
-     background: url(/images/th_jordan-ultra-fly.jpg);
-}
-
-    <!-- Изменение восьмой фотографии при  наведении -->
-#block_image7:hover
-{
-    background: url(/images/1172850.jpg);
-}
-
-<!-- Создание десятой фотографии с товаром -->
-#block_image8
-{
-    width: 200px;
+    width: 250px;
     height: 400px;
     border: 1px solid black;
     margin: 0 auto;
     float: right;
     margin-top: 10px;
-    padding-left: 50px;
-    padding-right: 10px;
-     background: url(/images/Мужчины-Баскетбол-Обувь-2016-Super-Cool-Высокие-Баскетбольные-Кроссовки-Мужские-Размер-Обуви-11-Кожа-Корзина-Home.jpg);
+    margin-right: 10px;
+     background: url(/images/nike-air-zoom-300x300.jpg);
 }
 
-    <!-- Изменение десятой фотографии при  наведении -->
-#block_image8:hover
-{
-    background: url(/images/1172850.jpg);
-}
-
-<!-- Создание девятой фотографии с товаром -->
-#block_image9
-{
-    width: 200px;
-    height: 400px;
-    border: 1px solid black;
-    margin: 0 auto;
-    margin-top: 10px;
-    padding-left: 50px;
-    padding-right: 10px;
-     background: url(/images/nike-wmns-air-huarache-carbon-green.jpg);
-}
-
-    <!-- Изменение девятой фотографии при  наведении -->
-#block_image9:hover
+    <!-- Изменение шестой фотографии при  наведении -->
+#block_image4:hover
 {
     background: url(/images/1172850.jpg);
 }
@@ -293,9 +229,10 @@ cursor: pointer;
     height: 200px;
     border: 1px solid black;
     margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding-right: 28px;
      background: url(/images/thumb.jpg);
 
 }
@@ -305,6 +242,65 @@ cursor: pointer;
 {
     background: url(/images/1172850.jpg);
 }
+
+
+<!-- Создание восьмой фотографии с товаром -->
+#block_image7
+{
+    width: 250px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 0 auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+     background: url(/images/th_jordan-ultra-fly.jpg);
+}
+
+    <!-- Изменение восьмой фотографии при  наведении -->
+#block_image7:hover
+{
+    background: url(/images/1172850.jpg);
+}
+
+<!-- Создание девятой фотографии с товаром -->
+#block_image9
+{
+    width: 250px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-left: 400px;
+    margin-top: 10px;
+     background: url(/images/nike-wmns-air-huarache-carbon-green.jpg);
+}
+
+    <!-- Изменение девятой фотографии при  наведении -->
+#block_image9:hover
+{
+    background: url(/images/1172850.jpg);
+}
+
+<!-- Создание десятой фотографии с товаром -->
+#block_image8
+{
+    width: 250px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 0 auto;
+    float: right;
+    margin-top: 10px;
+margin-right: 10px;
+     background: url(/images/Мужчины-Баскетбол-Обувь-2016-Super-Cool-Высокие-Баскетбольные-Кроссовки-Мужские-Размер-Обуви-11-Кожа-Корзина-Home.jpg);
+}
+
+    <!-- Изменение десятой фотографии при  наведении -->
+#block_image8:hover
+{
+    background: url(/images/1172850.jpg);
+}
+
 
 
 <!-- Создание нижнего блока -->
