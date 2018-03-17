@@ -15,7 +15,39 @@
     margin: 0 auto;
 }
 
+<!-- Создание блока для кнопок вход регистрация -->
+#block_top 
+{
+        width: 1050px;
+    height: 50px;
+    border: 1px solid blueviolet;
+    margin: 0 auto;
+}
+#block_login 
+{
+    margin-right:10px;
+        padding-right:10px; 
+        padding-left: 2px;
+        margin-top: 15px ;
+            float: right;
+}
 
+<!-- Создание кнопки Вход -->
+#block_login a.login
+{
+    padding-right:10px; 
+        padding-left: 2px;
+    text-decoration: none;
+}
+
+<!--  Изменение цвета кнопки при наведении на нее  -->
+#block_login a.login:hover
+{
+    font: 15px sans-serif;
+color: green;
+text-decoration: none;
+cursor: pointer;
+}
 
 <!-- Создание логотипа -->
 #block_logotyp
@@ -27,35 +59,13 @@
     margin-left: 500px;
 }
 
-<!-- ПЕРЕДЕЛАТЬ -->
-<!-- Создание кнопки Вход -->
-#block_login a.login
-{
-    width: 25px;
-    height: 25px;
-    border: 1px solid black;
-    margin-right:10px;
-        padding-right:25px; 
-        margin-top: -55px ;
-    float: right;
-    text-decoration: none;
-}
-<!-- ПЕРЕДЕЛАТЬ -->
-<!--  Изменение цвета кнопки при наведении на нее  -->
-#block_login a.login:hover
-{
-    font: 10px sans-serif;
-color: green;
-text-decoration: none;
-}
-
 <!-- Создание блока меню -->
 #block_menu 
 {
     width: 1048px;
     height: 50px;
     border: 1px solid black;
-    margin-top: 52px;
+    margin-top: 36px;
 }
 
 <!-- Установка шрифта и место положения для навигации в меню -->

@@ -1,14 +1,15 @@
 <!-- Создание верхнего блока -->
 <div id = "block_header">
 
+<!-- Создание блока для кнопок вход регистрация -->
+<div id = "block_top">
+<!-- Создание кнопки Вход  -->
+<p id="block_login"><a class="login">Вход</a><a href="registration.php">Регистрация</a></p>
+</div>
+
 <!-- Создание логотипа -->
 <div id="block_logotyp">
 Sport House</div>
-
-<!-- Создание кнопки Вход  -->
-<p id="block_login"><a class="login">Вход</a><a href="registration.php">Регистрация</a></p>
-
-<!-- Создание кнопки регистрации -->
 
 <!-- Создание ссылок в меню-->
 <ul id="block_menu">
@@ -21,5 +22,5 @@ Sport House</div>
 <li><a href="Novinki.php">Новинки</a></li>
 <li><a href="Sale.php">Акции</a></li>
 </ul>
-
+</div>
 
