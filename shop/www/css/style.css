@@ -11,7 +11,6 @@
 {
     width: 1050px;
     height: 200px;
-    border: 1px solid blueviolet;
     margin: 0 auto;
 }
 
@@ -77,7 +76,6 @@ cursor: pointer;
 {
     width: 1048px;
     height: 50px;
-    border: 1px solid black;
     margin-top: 110px;  
 }
 
@@ -110,8 +108,23 @@ cursor: pointer;
     #block_search 
     {
         margin-top: 5px;
-        margin-left: 800px;
+        margin-left: 750px;
         
+    }
+    
+           <!-- Изменение текстового поля кнопки поиск -->
+    #block_search input#input_search
+    {
+        width: 200px;
+        height: 20px;
+    }
+    
+    
+     <!-- Изменение кнопки поиск -->
+    #button_search
+    {
+        width: 70px;
+        height: 27px;
     }
 
 <!-- Создание первой фотографии с товаром -->
@@ -119,7 +132,6 @@ cursor: pointer;
 {
     width: 250px;
     height: 400px;
-    border: 1px solid black;
     margin: 0 auto;
     float: left;
     margin-top: 10px;
@@ -139,7 +151,6 @@ cursor: pointer;
 {
     width: 250px;
     height: 400px;
-    border: 1px solid black;
     margin: 0 auto;
     margin-left: 400px;
     margin-top: 10px;
@@ -157,7 +168,6 @@ cursor: pointer;
 {
     width: 250px;
     height: 400px;
-    border: 1px solid black;
     margin: 0 auto;
     float: right;
     margin-right: 10px;
@@ -176,7 +186,6 @@ cursor: pointer;
 {
     width: 250px;
     height: 400px;
-    border: 1px solid black;
     margin: 0 auto;
     float: left;
     margin-left: 10px;
@@ -196,7 +205,6 @@ cursor: pointer;
 {
     width: 250px;
     height: 400px;
-    border: 1px solid black;
     margin: 0 auto;
     margin-top: 10px;
     margin-left: 400px;
@@ -214,7 +222,6 @@ cursor: pointer;
 {
     width: 250px;
     height: 400px;
-    border: 1px solid black;
     margin: 0 auto;
     float: right;
     margin-top: 10px;
@@ -233,7 +240,6 @@ cursor: pointer;
 {
     width: 1000px;
     height: 200px;
-    border: 1px solid black;
     margin: 0 auto;
     margin-left: 10px;
     margin-right: 10px;
@@ -255,7 +261,6 @@ cursor: pointer;
 {
     width: 250px;
     height: 400px;
-    border: 1px solid black;
     margin: 0 auto;
     float: left;
     margin-top: 10px;
@@ -275,7 +280,6 @@ cursor: pointer;
 {
     width: 250px;
     height: 400px;
-    border: 1px solid black;
     margin: 0 auto;
     margin-left: 400px;
     margin-top: 10px;
@@ -293,12 +297,11 @@ cursor: pointer;
 {
     width: 250px;
     height: 400px;
-    border: 1px solid black;
     margin: 0 auto;
     float: right;
     margin-top: 10px;
 margin-right: 10px;
-     background: url(/images/Мужчины-Баскетбол-Обувь-2016-Super-Cool-Высокие-Баскетбольные-Кроссовки-Мужские-Размер-Обуви-11-Кожа-Корзина-Home.jpg);
+     background: url(/images/Мужчины-Баскетбол-Обувь-2016-Super-Cool-Высокие-Баскетбольные-Кроссовки-Мужские-Размер-Обуви-11-Кожа-Корзина-Homme.jpg_220x220.jpg);
 }
 
     <!-- Изменение десятой фотографии при  наведении -->

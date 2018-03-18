@@ -8,7 +8,7 @@
 </div>
 
 <!-- Создание логотипа -->
-<img id="logotip" src="/images/logo1.jpg"/>
+<img id="logotip" src="/images/12198418_b-jThJmVdmD6Y998HZmL6fCJFRSIzxuuWR37iRLL0dc.png"/>
 
 <!-- Создание ссылок в меню-->
 <ul id="block_menu">
