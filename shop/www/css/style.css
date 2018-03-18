@@ -310,8 +310,6 @@ margin-right: 10px;
     background: url(/images/1172850.jpg);
 }
 
-
-
 <!-- Создание нижнего блока -->
 #block_footer
 {
@@ -319,4 +317,25 @@ margin-right: 10px;
     height: 400px;
     margin-top: 10px;
     border: 1px solid black;
+}
+
+<!-- Создание блока о нас -->
+#block_information li
+{
+    font: 15px sans-serif;
+    margin-top: 5px;
+}
+
+<!-- Создание блока о нас -->
+#block_information a
+{
+    font: 15px sans-serif;
+    color: blue;
+    text-decoration: none;
+}
+
+<!-- Изменение при наведении блока о нас -->
+#block_information a:hover
+{
+    color: red;
 }
