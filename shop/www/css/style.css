@@ -314,7 +314,7 @@ margin-right: 10px;
 #block_footer
 {
     width: 1050px;
-    height: 400px;
+    height: auto;
     margin-top: 10px;
     border: 1px solid black;
 }
@@ -339,3 +339,58 @@ margin-right: 10px;
 {
     color: red;
 }
+
+<!-- Мы в социальных сетях -->
+#block_icons
+{
+     font: 15px sans-serif;
+    color: blue;
+    float: left;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 650px;
+}
+
+
+<!-- Добавление блок с иконками соц.сетей -->
+#icons li
+{
+    float: right;
+}
+
+<!-- первая иконка -->
+#icons_1 
+{
+  height: 40px;  
+  width: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+<!-- вторая иконка -->
+#icons_2 
+{
+  height: 40px;  
+  width: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+<!-- третья иконка -->
+#icons_3 
+{
+  height: 40px;  
+  width: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+<!-- четвертая иконка -->
+#icons_4 
+{
+  height: 40px;  
+  width: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+

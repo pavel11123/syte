@@ -11,4 +11,15 @@
 <p>ќплатить покупки из каталога SportHouse.ru можно любым удобным способом: наличными курьеру, по пластиковой карте через интернет. ƒл€ удобства покупателей у каждого курьера SportHouse.ru при себе есть мобильный терминал оплаты: товары можно оплатить картой у себ€ дома сразу после примерки.»нтернет-магазин SportHouse.ru ценит своих клиентов, их вкус и выбор. ѕоэтому купленный, но не подошедший товар можно вернуть в течение 14  дней после покупки</p>
 </ul>
 
+<ul id="block_icons">
+<li><a>ћы в социальных сет€х</a></li>
+</ul>
+
+<ul id="icons" >
+<li> <a href="vk.com"><img id="icons_1" src="/images/12.png"/></a></li>
+<li> <a href="tvitter.com"><img id="icons_2" src="/images/3.png"/></a></li>
+<li> <a href="tvitter.php"><img id="icons_3" src="/images/5.png"/></a></li>
+<li> <a href="facebook.com"><img id="icons_4" src="/images/6.png"/></a></li>
+</ul>
+
 </div>
