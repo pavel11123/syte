@@ -42,8 +42,8 @@
         if($row["image"]!=" " && file_exists("./uploads_images/".$row["image"]))
     {
         $img_path = './uploads_images/'.$row["image"];
-        $max_width = 200;
-        $max_height = 200;
+        $max_width = 400;
+        $max_height = 250;
         list($width, $height)= getimagesize($img_path);
         $ratioh = $max_height/$height;
         $ratiow = $max_width/$width;
@@ -64,7 +64,7 @@
         </div>
         <p class = "style-title-grid"><a href="">'.$row["title"].'</a></p>
         <a class = "add-cart-style-grid></a>
-        <p class = "style-price-grid"><strong></strong> руб.</p>
+        <p class = "style-price-grid"><strong>'.$row["price"].'</strong> руб.</p>
         <div class = "mini_features">
         '.$row["mini_features"].'
         </div>
