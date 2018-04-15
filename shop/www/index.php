@@ -1,3 +1,7 @@
+<?php
+	include("include/db_connect.php");
+?>
+
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -12,6 +16,7 @@
 
 <!-- Основной блок -->
 <div id="block_body"> 
+
 <!-- Подключение папки include с верхним блоком -->
 <?php
 	include ("Z:/home/shop/www/include/block_header.php");
@@ -26,20 +31,50 @@
 
 </div>
 
-<!-- Создание блоков для фотографий -->
-<div> Новый блок </div>
-<div id="block_image"></div>
-<div id="block_image1"></div>
-<div id="block_image2"></div>
-<div> Спорт </div>
-<div id="block_image3"></div>
-<div id="block_image4"></div>
-<div id="block_image5"></div>
-<div id="block_image6"></div>
-<div> Для всех</div>
-<div id="block_image7"></div>
-<div id="block_image8"></div>
-<div id="block_image9"></div>
+<ul id="block_tovar_grid">
+<?php
+	$result = mysql_query(" SELECT * FROM table_products", $link);
+    if(mysql_num_rows($result)>0)
+    {
+    $row = mysql_fetch_array($result);
+    do
+    {
+        if($row["image"]!=" " && file_exists("./uploads_images/".$row["image"]))
+    {
+        $img_path = './uploads_images/'.$row["image"];
+        $max_width = 200;
+        $max_height = 200;
+        list($width, $height)= getimagesize($img_path);
+        $ratioh = $max_height/$height;
+        $ratiow = $max_width/$width;
+        $ratio = min ($ratioh,$ratiow);
+        $width = intval($ratio*$width);
+        $height = intval($ratio*$height);
+    }else
+    {
+        $img_path = "/images/no-image.png";
+        $width = 110;
+        $height = 200;
+    }
+        
+        echo'
+        <li>
+        <div class = "block-images-grid" >
+        <img src = "'.$img_path.'" width="'.$width.'" height="'.$height.'"/>
+        </div>
+        <p class = "style-title-grid"><a href="">'.$row["title"].'</a></p>
+        <a class = "add-cart-style-grid></a>
+        <p class = "style-price-grid"><strong></strong> руб.</p>
+        <div class = "mini_features">
+        '.$row["mini_features"].'
+        </div>
+        </li>
+        ';
+    }
+    while ($row = mysql_fetch_array($result));
+    }
+?>
+</ul>
 
 <!-- Подключение папки include с нижним блоком -->
 <?php
