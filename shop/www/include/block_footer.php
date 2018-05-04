@@ -21,5 +21,4 @@
 <li> <a href="tvitter.php"><img id="icons_3" src="/images/5.png"/></a></li>
 <li> <a href="facebook.com"><img id="icons_4" src="/images/6.png"/></a></li>
 </ul>
-
 </div>
