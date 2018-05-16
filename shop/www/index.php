@@ -36,7 +36,7 @@
 
 <ul id="block_tovar_grid">
 <?php
-$num = 2; // «десь указываем сколько хотим выводить товаров.
+$num = 6; // «десь указываем сколько хотим выводить товаров.
     $page = (int)$_GET['page'];              
      
     $count = mysql_query("SELECT COUNT(*) FROM table_products WHERE visible = '1'",$link);
@@ -69,11 +69,11 @@ $num = 2; // «десь указываем сколько хотим выводить товаров.
     $row = mysql_fetch_array($result);
     do
     {
-        if($row["image"]!=" " && file_exists("./uploads_images/".$row["image"]))
+        if($row["image"]!="" && file_exists("./uploads_images/".$row["image"]))
     {
         $img_path = './uploads_images/'.$row["image"];
-        $max_width = 400;
-        $max_height = 250;
+        $max_width = 200;
+        $max_height = 200;
         list($width, $height)= getimagesize($img_path);
         $ratioh = $max_height/$height;
         $ratiow = $max_width/$width;

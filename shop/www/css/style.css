@@ -213,21 +213,22 @@ cursor: pointer;
 }
 
 
-#block_tovar_grid > li 
+#block_tovar_grid  li 
 {
-    width: 380px;
+    width: 450px;
     float: left;
     margin-left: 10px;
-
+        margin-top: 10px;
+    
 }
 
 .block-images-grid
 {
-
     height: auto;
     float: left;
     margin-left: 10px;
     margin-right: 10px;
+     
 }
 
 .style-title-grid
