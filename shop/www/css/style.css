@@ -250,3 +250,55 @@ cursor: pointer;
     float: left;
     margin-top: 3px;
 }
+<!-- Для регистрации -->
+
+.h2-title
+{
+    margin-left: 15px;
+}
+
+#block-form-registration  li
+{
+        margin-left:100px;
+        margin-top: 15px ;
+}
+
+.star
+{
+    margin-right: 5px;
+    margin-left: 70px;
+}
+
+#reloadcaptcha 
+{
+    margin-left: 110px;
+}
+
+#reloadcaptcha:hover
+{
+    font: 15px sans-serif;
+color: red;
+text-decoration: none;
+cursor: pointer;
+}
+
+#genpass 
+{
+       font: 15px sans-serif;
+text-decoration: none;
+margin-left: 5px;
+}
+
+#genpass:hover
+{
+       font: 16px sans-serif;
+text-decoration: none;
+margin-left: 5px;
+cursor: pointer;
+color: red;
+}
+
+#form_submit
+{
+    margin-right: 200px;
+}

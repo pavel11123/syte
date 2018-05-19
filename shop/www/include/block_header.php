@@ -12,7 +12,7 @@
 
 <!-- Создание ссылок в меню-->
 <ul id="block_menu">
-<li><a href="Footbal.php">Футбол</a></li>
+<li><a href="football.php">Футбол</a></li>
 <li><a href="Basketbal.php">Баскетбол</a></li>
 <li><a href="Voleybal.php">Волейбол</a></li>
 <li><a href="Tennis.php">Теннис</a></li>

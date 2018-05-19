@@ -151,12 +151,12 @@ $(document).ready(function() {
 </head>
 <body>
  
-<div id="block-body">
+<div id="block_body">
 <?php    
     include("include/block_header.php");    
 ?>
 
-<div id="block-content">
+<div id="block_content">
  
 <h2 class="h2-title">Регистрация</h2>
 <form method="post" id="form_reg" action="/reg/handler_reg.php">
