@@ -39,7 +39,7 @@
 $num = 4; // «десь указываем сколько хотим выводить товаров.
     $page = (int)$_GET['page'];              
      
-    $count = mysql_query("SELECT COUNT(*) FROM table_products WHERE visible = '1'",$link);
+    $count = mysql_query("SELECT COUNT(*) FROM table_products WHERE visible = '2'",$link);
     $temp = mysql_fetch_array($count);
  
     If ($temp[0] > 0)
@@ -63,7 +63,7 @@ $num = 4; // «десь указываем сколько хотим выводить товаров.
     $qury_start_num = " LIMIT $start, $num"; 
     }
 // ------------------------------------------------------------------------------------------
-	$result = mysql_query(" SELECT * FROM table_products WHERE visible='1' $qury_start_num", $link);
+	$result = mysql_query(" SELECT * FROM table_products WHERE visible='2' $qury_start_num", $link);
     if(mysql_num_rows($result)>0)
     {
     $row = mysql_fetch_array($result);
