@@ -49,7 +49,7 @@ $(document).ready(function() {
                         },
                         "reg_name":{
                             required:true,
-                            minlength:3,
+                            minlength:2,
                             maxlength:15
                         },
                         "reg_patronymic":{
@@ -98,8 +98,8 @@ $(document).ready(function() {
                         },
                         "reg_name":{
                             required:"Укажите ваше Имя!",
-                            minlength:"От 3 до 15 символов!",
-                            maxlength:"От 3 до 15 символов!"                              
+                            minlength:"От 2 до 15 символов!",
+                            maxlength:"От 2 до 15 символов!"                              
                         },
                         "reg_patronymic":{
                             required:"Укажите ваше Отчество!",

@@ -1,5 +1,5 @@
 <?php
-	include("include/db_connect.php");
+	include ("Z:/home/shop/www/include/db_connect.php");
 ?>
 
 <!DOCTYPE HTML>
