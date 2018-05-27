@@ -29,11 +29,11 @@ $(document).ready(function() {
                     // правила дл€ проверки
                     rules:{
                         "reg_login":{
-                            required:true,
-                            minlength:5,
+                            required:true, // не пустое ли поле
+                            minlength:5, // минимальна€ длина значени€
                             maxlength:15,
                             remote: {
-                            type: "post",    
+                            type: "post",    // проверка существует ли такой логин
                             url: "/reg/check_login.php"
                                     }
                         },
@@ -121,14 +121,14 @@ $(document).ready(function() {
                             remote: "Ќе верный код проверки!"
                         }
                     },
-                     
-    submitHandler: function(form){
+                     // происходит сама регистраци€ пользовател€
+    submitHandler: function(form){ // если все введено правильно будет отправл€тьс€ сообщение в обработчик
     $(form).ajaxSubmit({
     success: function(data) { 
                                   
-        if (data == 'true')
+        if (data == 'true') // если обработчик отправл€ет true то выполн€ютс€ действи€
     {
-       $("#block-form-registration").fadeOut(300,function() {
+       $("#block-form-registration").fadeOut(300,function() { // 300 чтобы окно исчезло плавно и указываем функцию чтобы выводилось -->
          
         $("#reg_message").addClass("reg_message_good").fadeIn(400).html("¬ы успешно зарегистрированы!");
         $("#form_submit").hide();

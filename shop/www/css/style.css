@@ -306,36 +306,8 @@ color: red;
 #form-registration > li > label{
     position: absolute;
     font: 15px sans-serif;
-    margin-top: 7px;
+    margin-top: 2px;
     margin-left: -80px;
-}
-
-<!-- Для авторизации -->
-#block-top-auth{
-    border: 1px solid #DBDBDB;
-    width: 210px;
-    height: auto;
-    margin-left: 740px;
-    margin-top: 5px;
-    background-color: white;
-    position: absolute;
-     -moz-box-shadow: 0 0 15px #DBDBDB;
-    -webkit-box-shadow: 0 0 15px #DBDBDB;
-    box-shadow: 0 0 15px #DBDBDB;
-
-}
-
-#input-email-pass h3{
-    font: 15px sans-serif;
-    margin: 10px;
-}
-
-#message_auth{
-    font: bold 13px sans-serif;
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #FDE7E7;
-    color: red;
 }
 
 #block-captcha{
@@ -357,3 +329,40 @@ color: red;
     border-right:1px solid #DDDDDD ;
     border-bottom:1px solid #DDDDDD ;
 }
+
+.error{
+    font: italic 14px sans-serif;
+    color: #CC0063;
+    margin-left: 5px;
+}
+
+
+<!-- Для авторизации -->
+#block-top-auth{
+    border: 1px solid #DBDBDB;
+    width: 210px;
+    height: auto;
+    margin-left: 740px;
+    margin-top: 5px;
+    background-color: white;
+    position: absolute;
+     -moz-box-shadow: 0 0 15px #DBDBDB;
+    -webkit-box-shadow: 0 0 15px #DBDBDB;
+    box-shadow: 0 0 15px #DBDBDB;
+    display: none;
+}
+
+#input-email-pass h3{
+    font: 15px sans-serif;
+    margin: 10px;
+}
+
+#message_auth{
+    font: bold 13px sans-serif;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #FDE7E7;
+    color: red;
+    display: none;
+}
+
