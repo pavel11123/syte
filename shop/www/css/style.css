@@ -315,6 +315,13 @@ color: red;
     margin-left: 200px;
     height: 70px;
 }
+
+#block-captcha p{
+       margin-top: 0px;
+       cursor: pointer;
+       clear: both;
+}
+
 #block-captcha  > input#reg_captcha{
     height: 30px;
     width: 100px;
