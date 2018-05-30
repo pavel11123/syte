@@ -10,5 +10,11 @@ $(document).ready(function(){
   }
 });
   
+});
+  
+  // для обновления каптчи
+  $('#reloadcaptcha').click(function(){
+$('#block-captcha > img').attr("src","/reg/reg_captcha.php?r="+ Math.random());
+  
 }); 
 });
