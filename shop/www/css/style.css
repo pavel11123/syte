@@ -13,24 +13,17 @@
     margin: 0 auto;
 }
 
-<!-- Создание блока для кнопок вход регистрация -->
-#block_top 
-{
-        width: 1050px;
-    height: 40px;
-    margin: 0 auto;
-}
-
 <!-- Расположение кнопки вход и регистрация -->
-#block_login 
+#reg-auth-title
 {
     margin-right:10px;
         margin-top: 15px ;
             float: right;
 }
 
+
 <!-- Создание кнопки Вход -->
-#block_login a.login
+#reg-auth-title a.top-auth
 {
     padding-right:10px; 
         padding-left: 2px;
@@ -38,7 +31,7 @@
 }
 
 <!--  Изменение цвета кнопки при наведении на нее  -->
-#block_login a.login:hover
+#reg-auth-title a.top-auth:hover
 {
     font: 15px sans-serif;
 color: green;
@@ -47,7 +40,7 @@ cursor: pointer;
 }
 
 <!-- Создание кнопки регистрация -->
-#block_login a
+#reg-auth-title a
 {
     font: 15px sans-serif;
     color: black;
@@ -55,7 +48,7 @@ cursor: pointer;
 }
 
 <!-- Создание кнопки регистрация при наведении на нее -->
-#block_login a:hover
+#reg-auth-title a:hover
 {
     color: red;
 }

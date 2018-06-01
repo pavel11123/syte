@@ -1,11 +1,9 @@
 <!-- Создание верхнего блока -->
 <div id = "block_header">
 
-<!-- Создание блока для кнопок вход регистрация -->
-<div id = "block_top">
+
 <!-- Создание кнопки Вход  -->
-<p id="block_login"><a class="login">Вход</a><a href="registration.php">Регистрация</a></p>
-</div>
+<p id="reg-auth-title"><a class="top-auth">Вход</a><a href="registration.php">Регистрация</a></p>
 
 <div id="block-top-auth"> 
 <form method="post"> 
