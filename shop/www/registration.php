@@ -1,6 +1,6 @@
 <?php
-   define('myeshop', true); 
-   include("include/db_connect.php"); 
+   define('db_shop', true); 
+  	include ("Z:/home/shop/www/include/db_connect.php");
  
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -34,7 +34,7 @@ $(document).ready(function() {
                             maxlength:15,
                             remote: {
                             type: "post",    // проверка существует ли такой логин
-                            url: "/reg/check_login.php"
+                            url: "Z:/home/shop/www/reg/check_login.php"
                                     }
                         },
                         "reg_pass":{
