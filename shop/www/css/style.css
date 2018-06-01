@@ -3,7 +3,6 @@
 {
     width: 1050px;
     height: auto;
-    border: 1px solid black;
     margin: 0 auto;
 }
 <!-- Создание верхнего блока -->
@@ -134,7 +133,7 @@ cursor: pointer;
     width: 1050px;
     height: auto;
     margin-top: 10px;
-    border: 1px solid black;
+
 }
 
 <!-- Создание блока о нас -->

@@ -8,9 +8,9 @@
 	<meta http-equiv="content-type" content="text/html" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/reset.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="shop-script.js"></script>
-<script type="text/javascript" src="jquery.cookie.js"></script>
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/shop-script.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
 
 	<title>Sport House</title>
 </head>
